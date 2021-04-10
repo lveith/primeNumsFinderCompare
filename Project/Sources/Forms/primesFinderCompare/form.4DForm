@@ -1,0 +1,402 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 840,
+	"windowMinHeight": 176,
+	"windowMaxWidth": 1200,
+	"windowMaxHeight": 1200,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "primesFinderCompare",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"oInfoInterpreted1": {
+					"type": "text",
+					"text": "Fast in interpreted",
+					"top": 2,
+					"left": 0,
+					"width": 180,
+					"height": 34,
+					"fontSize": 9,
+					"stroke": "#008000",
+					"fill": "#D4FB79",
+					"textAlign": "center",
+					"visibility": "hidden",
+					"bottom": 36
+				},
+				"oInfoInterpreted2": {
+					"type": "text",
+					"text": "Need long time interpreted. and very long time for ALL",
+					"top": 2,
+					"left": 180,
+					"width": 261,
+					"height": 34,
+					"fontSize": 9,
+					"stroke": "#ff6347",
+					"fill": "#ffff00",
+					"textAlign": "center",
+					"visibility": "hidden",
+					"bottom": 36
+				},
+				"oLbPrimesTestResults": {
+					"type": "listbox",
+					"left": 0,
+					"top": 43,
+					"width": 838,
+					"height": 632,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.primesTestResults",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"rowFillSource": "getRowBgColor",
+					"hideExtraBlankRows": true,
+					"focusable": false,
+					"method": "ObjectMethods/oLbPrimesTestResults.4dm",
+					"sortable": false,
+					"horizontalLineStroke": "transparent",
+					"hideSystemHighlight": true,
+					"selectionMode": "none",
+					"columns": [
+						{
+							"header": {
+								"text": "Function",
+								"name": "oHeadFunction"
+							},
+							"name": "oColFunction",
+							"footer": {
+								"name": "Fußteil2"
+							},
+							"dataSource": "This:C1470.function",
+							"enterable": false,
+							"width": 80,
+							"minWidth": 34,
+							"maxWidth": 400,
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"text": "Max",
+								"name": "oHeadMax"
+							},
+							"name": "oColMax",
+							"footer": {
+								"name": "Fußteil5"
+							},
+							"dataSource": "This:C1470.max",
+							"enterable": false,
+							"dataSourceTypeHint": "number",
+							"numberFormat": "# ### ### ##0 ms",
+							"fontFamily": "Andale Mono",
+							"fontSize": 12,
+							"width": 136,
+							"minWidth": 136,
+							"maxWidth": 300
+						},
+						{
+							"header": {
+								"text": "Millisecond Alloc",
+								"name": "oHeadMsAlloc"
+							},
+							"name": "oColMsAlloc",
+							"footer": {
+								"name": "Fußteil1"
+							},
+							"dataSource": "This:C1470.msAlloc",
+							"enterable": false,
+							"dataSourceTypeHint": "number",
+							"numberFormat": "# ### ### ##0 ms",
+							"fontFamily": "Andale Mono",
+							"fontSize": 12,
+							"width": 136,
+							"minWidth": 136,
+							"maxWidth": 300,
+							"stroke": "#696969"
+						},
+						{
+							"header": {
+								"text": "Millisecond Main",
+								"name": "oHeadMsMain"
+							},
+							"name": "oColMsMain",
+							"footer": {
+								"name": "Fußteil4"
+							},
+							"dataSource": "This:C1470.ms",
+							"enterable": false,
+							"dataSourceTypeHint": "number",
+							"numberFormat": "# ### ### ##0 ms",
+							"fontFamily": "Andale Mono",
+							"fontSize": 12,
+							"width": 136,
+							"minWidth": 136,
+							"maxWidth": 300,
+							"stroke": "#696969"
+						},
+						{
+							"header": {
+								"text": "Millisecond Summary",
+								"name": "oHeadMsSummary"
+							},
+							"name": "oColMsSummary",
+							"footer": {
+								"name": "Fußteil3"
+							},
+							"dataSource": "This:C1470.msSum",
+							"enterable": false,
+							"dataSourceTypeHint": "number",
+							"numberFormat": "# ### ### ##0 ms",
+							"fontFamily": "Andale Mono",
+							"fontSize": 12,
+							"width": 136,
+							"minWidth": 136,
+							"maxWidth": 300,
+							"fontWeight": "normal",
+							"stroke": "#000000"
+						},
+						{
+							"header": {
+								"text": "OK",
+								"name": "oHeadOk"
+							},
+							"name": "oColOk",
+							"footer": {
+								"name": "Fußteil6"
+							},
+							"dataSource": "This:C1470.ok",
+							"enterable": false,
+							"dataSourceTypeHint": "boolean",
+							"numberFormat": "# ### ### ##0 ms",
+							"fontSize": 12,
+							"textAlign": "center",
+							"width": 31,
+							"maxWidth": 31,
+							"minWidth": 31
+						},
+						{
+							"header": {
+								"text": "Found",
+								"name": "oHeadFound"
+							},
+							"name": "oColFound",
+							"footer": {
+								"name": "Fußteil7"
+							},
+							"dataSource": "This:C1470.found",
+							"enterable": false,
+							"dataSourceTypeHint": "number",
+							"numberFormat": "# ### ### ##0",
+							"fontFamily": "Andale Mono",
+							"fontSize": 12,
+							"width": 126,
+							"minWidth": 126,
+							"maxWidth": 300
+						},
+						{
+							"header": {
+								"text": "Test",
+								"name": "oHeadFound1"
+							},
+							"name": "oColTest",
+							"footer": {
+								"name": "Fußteil8"
+							},
+							"dataSource": "This:C1470.test",
+							"enterable": false,
+							"dataSourceTypeHint": "number",
+							"numberFormat": "##0",
+							"fontFamily": "Andale Mono",
+							"fontSize": 12,
+							"width": 42,
+							"minWidth": 42,
+							"maxWidth": 300
+						}
+					]
+				},
+				"oBtnStartAll": {
+					"type": "button",
+					"text": "Start ALL",
+					"top": 2,
+					"left": 459,
+					"width": 113,
+					"height": 34,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/oBtnStartAll.4dm",
+					"bottom": 36,
+					"focusable": false,
+					"fontWeight": "bold"
+				},
+				"Optionsfeld": {
+					"type": "radio",
+					"text": "Only up to max 1Million",
+					"top": 10,
+					"left": 5,
+					"width": 172,
+					"height": 26,
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "groupMaxLimiit",
+					"dataSourceTypeHint": "boolean",
+					"dataSource": "Form:C1466.maxLimit1M"
+				},
+				"Optionsfeld1": {
+					"type": "radio",
+					"text": "Only up to max 100Million",
+					"top": 10,
+					"left": 185,
+					"width": 188,
+					"height": 26,
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "groupMaxLimiit",
+					"dataSourceTypeHint": "boolean",
+					"dataSource": "Form:C1466.maxLimit100M"
+				},
+				"Optionsfeld2": {
+					"type": "radio",
+					"text": "ALL",
+					"top": 10,
+					"left": 381,
+					"width": 56,
+					"height": 26,
+					"events": [
+						"onClick"
+					],
+					"radioGroup": "groupMaxLimiit",
+					"dataSourceTypeHint": "boolean",
+					"dataSource": "Form:C1466.maxLimitAll"
+				},
+				"oInfoInProgress1": {
+					"type": "text",
+					"text": "wait...",
+					"top": 2,
+					"left": 441,
+					"width": 148,
+					"height": 34,
+					"fontSize": 24,
+					"stroke": "#FFFFFF",
+					"fill": "#dc143c",
+					"textAlign": "center",
+					"visibility": "hidden",
+					"bottom": 36
+				},
+				"oInfoInProgress2": {
+					"type": "text",
+					"text": "",
+					"top": 43,
+					"left": 0,
+					"width": 838,
+					"height": 19,
+					"fontSize": 12,
+					"stroke": "#dc143c",
+					"fill": "transparent",
+					"textAlign": "center",
+					"visibility": "hidden",
+					"bottom": 62,
+					"right": 838,
+					"sizingX": "grow"
+				},
+				"oBtnKillWorker": {
+					"type": "button",
+					"text": "Kill worker",
+					"top": 2,
+					"left": 599,
+					"width": 113,
+					"height": 34,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/oBtnKillWorker.4dm",
+					"bottom": 36,
+					"focusable": false,
+					"fontWeight": "normal",
+					"fontStyle": "italic"
+				},
+				"oBtnTrace": {
+					"type": "button",
+					"text": "#",
+					"top": 1,
+					"left": 779,
+					"width": 27,
+					"height": 24,
+					"events": [
+						"onClick"
+					],
+					"fontWeight": "bold",
+					"fontSize": 18,
+					"stroke": "#da70d6",
+					"tooltip": "Cancel",
+					"method": "ObjectMethods/oBtnTrace.4dm",
+					"sizingX": "move"
+				},
+				"oBtnCancel": {
+					"type": "button",
+					"text": "✗",
+					"top": 1,
+					"left": 812,
+					"width": 27,
+					"height": 24,
+					"events": [
+						"onClick"
+					],
+					"fontWeight": "bold",
+					"fontSize": 18,
+					"stroke": "#dc143c",
+					"tooltip": "Close",
+					"method": "ObjectMethods/oBtnCancel.4dm",
+					"shortcutAccel": false,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "[Esc]",
+					"sizingX": "move"
+				}
+			}
+		}
+	],
+	"geometryStamp": 752,
+	"method": "method.4dm",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"width": 840,
+	"height": 676
+}

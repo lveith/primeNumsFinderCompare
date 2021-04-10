@@ -1,0 +1,110 @@
+﻿{
+	"Sources/Forms/primesFinderCompare/method.4dm": {
+		"left": 579,
+		"top": 159,
+		"width": 806,
+		"height": 766
+	},
+	"Sources/Forms/primesFinderCompare/ObjectMethods/oStartAll.4dm": {
+		"left": 475,
+		"top": 232,
+		"width": 895,
+		"height": 610
+	},
+	"Sources/Methods/execOneFunc.4dm": {
+		"left": 634,
+		"top": 224,
+		"width": 685,
+		"height": 521
+	},
+	"Sources/Methods/funcA.4dm": {
+		"left": 669,
+		"top": 107,
+		"width": 685,
+		"height": 786
+	},
+	"Sources/Methods/getRowBgColor.4dm": {
+		"left": 855,
+		"top": 290,
+		"width": 644,
+		"height": 521
+	},
+	"Sources/Forms/primesFinderCompare/ObjectMethods/List Box.4dm": {
+		"left": 855,
+		"top": 290,
+		"width": 685,
+		"height": 521
+	},
+	"Sources/Forms/primesFinderCompare/ObjectMethods/oLbPrimesTestResults.4dm": {
+		"left": 566,
+		"top": 370,
+		"width": 840,
+		"height": 521
+	},
+	"Sources/Methods/funcB.4dm": {
+		"left": 366,
+		"top": 108,
+		"width": 685,
+		"height": 767
+	},
+	"Sources/Methods/execAllFuncs.4dm": {
+		"left": 455,
+		"top": 183,
+		"width": 685,
+		"height": 689
+	},
+	"Sources/Methods/warmUpWorker.4dm": {
+		"left": 600,
+		"top": 297,
+		"width": 685,
+		"height": 545
+	},
+	"Sources/Methods/refreshListbox.4dm": {
+		"left": 855,
+		"top": 290,
+		"width": 685,
+		"height": 521
+	},
+	"Sources/Methods/setInfoInProgress.4dm": {
+		"left": 662,
+		"top": 306,
+		"width": 685,
+		"height": 521
+	},
+	"Sources/Forms/primesFinderCompare/ObjectMethods/oBtnStartAll.4dm": {
+		"left": 475,
+		"top": 150,
+		"width": 895,
+		"height": 692
+	},
+	"Sources/Forms/primesFinderCompare/ObjectMethods/oBtnStartAll1.4dm": {
+		"left": 461,
+		"top": 318,
+		"width": 895,
+		"height": 610
+	},
+	"Sources/Forms/primesFinderCompare/ObjectMethods/oBtnKillWorker.4dm": {
+		"left": 461,
+		"top": 318,
+		"width": 895,
+		"height": 610
+	},
+	"Sources/Methods/startFormPrimesFinderCompare.4dm": {
+		"left": 475,
+		"top": 232,
+		"width": 895,
+		"height": 610
+	},
+	"Sources/Methods/Compiler_Methods.4dm": {
+		"left": 455,
+		"top": 183,
+		"width": 685,
+		"height": 689
+	},
+	"Sources/Methods/funcC.4dm": {
+		"left": 366,
+		"top": 108,
+		"width": 857,
+		"height": 792
+	}
+}

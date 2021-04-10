@@ -1,0 +1,164 @@
+﻿{
+	"Sources/Forms/primesFinderCompare/method.4dm": {
+		"startSelection": 48,
+		"endSelection": 48,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T16:24:40.911Z"
+	},
+	"Sources/Forms/primesFinderCompare/ObjectMethods/oStartAll.4dm": {
+		"startSelection": 8,
+		"endSelection": 8,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T12:45:25.063Z"
+	},
+	"Sources/Methods/execOneFunc.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T16:13:24.532Z"
+	},
+	"Sources/Methods/funcA.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 13,
+		"lastSelectedLine": 13,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T16:48:18.054Z"
+	},
+	"Sources/Methods/getRowBgColor.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-09T21:08:28.258Z"
+	},
+	"Sources/Forms/primesFinderCompare/ObjectMethods/List Box.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-09T22:04:14.305Z"
+	},
+	"Sources/Forms/primesFinderCompare/ObjectMethods/oLbPrimesTestResults.4dm": {
+		"startSelection": 94,
+		"endSelection": 94,
+		"firstSelectedLine": 38,
+		"lastSelectedLine": 38,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T01:23:13.340Z"
+	},
+	"Sources/Methods/funcB.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T16:47:25.779Z"
+	},
+	"Sources/Methods/execAllFuncs.4dm": {
+		"startSelection": 5,
+		"endSelection": 16,
+		"firstSelectedLine": 29,
+		"lastSelectedLine": 29,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T14:27:06.889Z"
+	},
+	"Sources/Methods/warmUpWorker.4dm": {
+		"startSelection": 10,
+		"endSelection": 10,
+		"firstSelectedLine": 30,
+		"lastSelectedLine": 30,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T14:26:32.866Z"
+	},
+	"Sources/Methods/refreshListbox.4dm": {
+		"startSelection": 8,
+		"endSelection": 22,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T11:41:45.803Z"
+	},
+	"Sources/Methods/setInfoInProgress.4dm": {
+		"startSelection": 10,
+		"endSelection": 10,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T12:52:54.834Z"
+	},
+	"Sources/Forms/primesFinderCompare/ObjectMethods/oBtnStartAll.4dm": {
+		"startSelection": 35,
+		"endSelection": 47,
+		"firstSelectedLine": 45,
+		"lastSelectedLine": 45,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T12:58:32.910Z"
+	},
+	"Sources/Forms/primesFinderCompare/ObjectMethods/oBtnStartAll1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T13:07:13.042Z"
+	},
+	"Sources/Forms/primesFinderCompare/ObjectMethods/oBtnKillWorker.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T16:19:20.773Z"
+	},
+	"Sources/Methods/startFormPrimesFinderCompare.4dm": {
+		"startSelection": 8,
+		"endSelection": 36,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T13:23:22.438Z"
+	},
+	"Sources/Methods/Compiler_Methods.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T14:39:14.942Z"
+	},
+	"Sources/Methods/funcC.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-10T16:47:52.307Z"
+	}
+}

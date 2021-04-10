@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="9">
+	<com.4d>
+		<general startup_environnement="1"/>
+		<database>
+			<cache flush_buffer_delay="240" size_maximum="400"/>
+		</database>
+	</com.4d>
+</preferences>
